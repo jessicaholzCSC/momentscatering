@@ -7,3 +7,13 @@
 h1 {
     color: red;
 }
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 700 */
+
+.cormorant-300-italic {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
