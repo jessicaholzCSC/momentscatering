@@ -1,3 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #1a1a1a;
+  color: #f2f2f2; */
+}
+
+/* temporary styles for structural html */
+* {
+  padding: 0.5rem;
+  border: 5px solid rgb(240,240,240);
+}
+
+body {
+  border: none;
+}
+
+html {
+  border: none;
+}
+
+
+/* Image Styles */
+
+.bg-image {
+  background-image: url('/images/momentscatering-stephan.jpg');
+  background-size: cover;
+  min-height: 10rem;
+}
+
+/* Universal styles & utility classes */
+
+.padded       { padding: 5%; }
+.padded-sm    { padding: 1rem; }
+
+.bg-dark {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.bg-bright {
+  background-color: #f2f2f2;
+  color: #1a1a1a
+}
+
+.margin       { margin: 5%; }
+.margin-sm    { margin: 1rem; }
+
+
+
+
+
+
+
 /* ----------- Import Tailwind -----*/
 @tailwind base;
 @tailwind components;
