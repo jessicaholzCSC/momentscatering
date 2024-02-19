@@ -2,22 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: #1a1a1a;
-  color: #f2f2f2; */
 }
 
 /* temporary styles for structural html */
-* {
+section {
   padding: 0.5rem;
   border: 5px solid rgb(240,240,240);
 }
 
 body {
-  border: none;
-}
-
-html {
-  border: none;
+  font-family: 'Cormorant', serif;
 }
 
 
@@ -26,7 +20,13 @@ html {
 .bg-image {
   background-image: url('/images/momentscatering-stephan.jpg');
   background-size: cover;
-  min-height: 10rem;
+  background-position: center;
+}
+
+.bg-header {
+  background-image: url('/images/momentscatering-chef-hands.png');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Universal styles & utility classes */
@@ -47,9 +47,22 @@ html {
 .margin       { margin: 5%; }
 .margin-sm    { margin: 1rem; }
 
+.text-left   { text-align: left; }
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+
+.tall-80    { min-height: 80vh; }
+.tall-90    { min-height: 90vh; }
+.tall-100    { min-height: 100vh; }
 
 
 
+/* Header Styles */
+
+/* header {
+  background-image: url('/images/momentscatering-chef-hands.png');
+  background-
+} */
 
 
 
