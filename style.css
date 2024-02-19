@@ -1,19 +1,39 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* ----------- Import Tailwind -----*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-h1 {
-    color: red;
-}
 
-/* // <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 700 */
+/* ----------- Default Styles to apply to the whole project  --------- */
 
-.cormorant-300-italic {
-  font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
+@layer base {
+    
+    body,html {
+        @apply text-bright bg-dark w-screen overflow-x-hidden; 
+    }
+    h1, h2, h3, h4  {
+        @apply font-serif mb-[0.5em];
+    }
+
+    h1 {
+        @apply text-7xl lg:text-8xl leading-tight;
+    }
+    h2 {
+        @apply text-3xl lg:text-5xl leading-tight;
+    }
+    h3 {
+        @apply text-2xl lg:text-4xl leading-tight;
+    }
+
+    h3 {
+        @apply text-lg leading-tight;
+    }
+    h4 {
+        @apply text-lg leading-tight;
+    }
+
+    p {
+        @apply mb-[0.5em] leading-normal font-sans;
+    }
+
+  }
