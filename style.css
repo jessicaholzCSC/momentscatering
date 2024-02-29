@@ -26,25 +26,16 @@ body {
     background-repeat: no-repeat;
 }
 
-.portrait-tall {
-  padding-bottom: 175%;
+.gallery [class*=col-] {
+  padding: 0.5%;
 }
 
-.portrait {
-  padding-bottom: 125%;
-}
-
-.square {
-  padding-bottom: 100%;
-}
-
-.landscape {
-  padding-bottom: 66%;
-}
-
-.landscape-wide {
-  padding-bottom: 56%;
-}
+/* Aspect Ratio */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56% }
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
@@ -57,7 +48,7 @@ body {
 .bg-pos-b-r { background-position: right bottom; }
 
 /* Background Position */
-.bg-pos-t-l { background-position: 10% 10%; }
+.bg-pos-t-l { background-position: 35% 20%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
 
@@ -94,19 +85,13 @@ body {
 .text-center { text-align: center; }
 .text-right  { text-align: right; }
 
+.tall-40    { min-height: 40vh; }
+.tall-50    { min-height: 50vh; }
+.tall-60    { min-height: 60vh; }
 .tall-70    { min-height: 70vh; }
 .tall-80    { min-height: 80vh; }
 .tall-90    { min-height: 90vh; }
 .tall-100    { min-height: 100vh; }
-
-
-
-/* Header Styles */
-
-/* header {
-  background-image: url('/images/momentscatering-chef-hands.png');
-  background-
-} */
 
 
 /* Font Styles */
@@ -124,16 +109,44 @@ p { font-size: 1.5rem; }
 
 .bg-image-stephan {
   background-image: url('/images/momentscatering-cooking-with-fire.jpg');
-  background-size: full;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .bg-image-about {
   background-image: url('/images/momentscatering-stephan.jpg');
-  background-size: cover;
-  background-position: center;
 }
+
+.bg-image-octopus {
+  background-image: url('/images/momentscatering-octopus.jpg');
+  background-size: cover;
+}
+
+.bg-image-dessert1 {
+  background-image: url('/images/momentscatering-dessert-glas.jpg');
+}
+
+.bg-image-dessert2 {
+  background-image: url('/images/momentscatering-dessert.png');
+}
+
+.bg-image-pralines {
+  background-image: url('/images/momentscatering-pralines.jpg');
+}
+
+.bg-image-filled {
+  background-image: url('/images/momentscatering-filled-food.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------- Import Tailwind -----*/
 @tailwind base;
@@ -144,9 +157,9 @@ p { font-size: 1.5rem; }
 /* ----------- Default Styles to apply to the whole project  --------- */
 
 @layer base {
-    
+
     body,html {
-        @apply text-bright bg-dark w-screen overflow-x-hidden; 
+        @apply text-bright bg-dark w-screen overflow-x-hidden;
     }
     h1, h2, h3, h4  {
         @apply font-serif mb-[0.5em];
