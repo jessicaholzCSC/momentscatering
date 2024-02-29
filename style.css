@@ -5,23 +5,63 @@
 }
 
 /* temporary styles for structural html */
-section {
+/* section {
   padding: 0.5rem;
   border: 5px solid rgb(240,240,240);
-}
+} */
 
 body {
   font-family: 'Cormorant', serif;
 }
 
 
-/* Image Styles */
+/* Gallery */
 
-.bg-image {
-  background-image: url('/images/momentscatering-stephan.jpg');
-  background-size: cover;
-  background-position: center;
+.gallery,
+[class*=bg-image] {
+    background-color: rgb(240,240,240);
+    background-image: url('/images/momentscatering-dessert-glas.jpg')
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.portrait-tall {
+  padding-bottom: 175%;
+}
+
+.portrait {
+  padding-bottom: 125%;
+}
+
+.square {
+  padding-bottom: 100%;
+}
+
+.landscape {
+  padding-bottom: 66%;
+}
+
+.landscape-wide {
+  padding-bottom: 56%;
+}
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+/* Background Position */
+.bg-pos-t-l { background-position: left top; }
+.bg-pos-b-r { background-position: right bottom; }
+
+/* Background Position */
+.bg-pos-t-l { background-position: 10% 10%; }
+.bg-pos-b-r { background-position: 85% 85%; }
+
+
+/* Image Styles */
 
 .bg-header {
   background-image: url('/images/momentscatering-chef-hands.png');
@@ -32,7 +72,9 @@ body {
 /* Universal styles & utility classes */
 
 .padded       { padding: 5%; }
-.padded-sm    { padding: 1rem; }
+.padded-sm    { padding: 2rem; }
+.padding-top  { padding: 5rem; }
+
 
 .bg-dark {
   background-color: #1a1a1a;
@@ -46,11 +88,13 @@ body {
 
 .margin       { margin: 5%; }
 .margin-sm    { margin: 1rem; }
+.margin-top   { margin-top: 12rem; }
 
 .text-left   { text-align: left; }
 .text-center { text-align: center; }
 .text-right  { text-align: right; }
 
+.tall-70    { min-height: 70vh; }
 .tall-80    { min-height: 80vh; }
 .tall-90    { min-height: 90vh; }
 .tall-100    { min-height: 100vh; }
@@ -65,6 +109,31 @@ body {
 } */
 
 
+/* Font Styles */
+
+h1, h2, h3, h4 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+p { font-size: 1.5rem; }
+
+
+/* Background Images */
+
+.bg-image-stephan {
+  background-image: url('/images/momentscatering-cooking-with-fire.jpg');
+  background-size: full;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-about {
+  background-image: url('/images/momentscatering-stephan.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 /* ----------- Import Tailwind -----*/
 @tailwind base;

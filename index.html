@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
+    <!-- Tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
     <!-- this is the css stylesheet -->
     <link rel="stylesheet" href="style.css">
 
@@ -22,71 +25,84 @@
 <!-- this is the body where all the page content goes -->
 <body>
 
+    <!--------------------- Navigation  ----------------------->
+    <header>
+        <div>
+          <a href="/">
+            <h2> LOGO </h2>
+          </a>
+        </div>
+        <nav class="text-right">
+          <a href="#"> Link </a>
+          <a href="#"> Link </a>
+          <a href="#"> Link </a>
+          <a href="#" class="emphasis-button"> Call to Action </a>
+        </nav>
+      </header>
+
     <!--------------------- Header Banner --------------------->
     <header class="grid bg-dark">
-        <div class="col-6 bg-header tall-90">
+        <div class="col-6 bg-header tall-70">
             <!-- image -->
         </div>
-        <div class="py-15p">
-            <div class="col-4 padded-sm bg-bright margin text-left">
-                <h1> Das Catering für unvergessliche Momente </h1>
+        <div class="col-5-middle">
+            <div class="margin-sm bg-bright padded-sm text-left">
+                <h1> Das Catering für <br> unvergessliche Momente </h1>
                 <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
             </div>
         </div>
     </header>
 
     <!--------------------- About Component --------------------->
-    <section class="grid bg-bright">
-        <div class="col-4 bg-image">
-            <!-- image -->
+    <section class="grid bg-bright tall-70">
+        <div class="col-4 bg-image-stephan">
         </div>
-        <div class="col-4 padded-sm text-left">
-            <h1> Das Catering für unvergessliche Momente </h1>
+        <div class="col-4-middle padded-sm text-left">
+            <h2> Das Catering für unvergessliche Momente </h2>
             <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
 
             <!-- add CTA -->
 
         </div>
-        <div class="col-4 bg-image">
-            <!-- image -->
+        <div class="col-4 bg-image-about">
         </div>
     </section>
 
     <!------------------- Gallery Section --------------------->
-    <section class="grid bg-dark">
-        <div class="padded col-12-middle text-center">
-            <h1> Das Catering für unvergessliche Momente </h1>
+    <section class="bg-dark">
+        <div class="text-center padding-top">
+            <h2> Das Catering für unvergessliche Momente </h2>
             <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
 
             <!-- add CTA -->
         </div>
-        <div class="grid padded">
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded-sm margin-sm">
-                <!-- image -->
-            </div>
+        <div class="gallery grid bg-dark">
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
+            <div class="col-4">
+                <div class="bg-image-stephan square"></div>
+            </div> 
         </div>
         
     </section>
 
     <!-------------------- Contact Section  -------------------->
-    <section class="bg-dark">
-        <div class="padded text-center">
-            <h1> Das Catering für unvergessliche Momente </h1>
+    <section class="bg-dark padded">
+        <div class="text-center">
+            <h2> Das Catering für unvergessliche Momente </h2>
             <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
 
             <!-- add CTA -->
@@ -95,7 +111,7 @@
 
     <!-------------------- Image Banner ---------------------->
     <section>
-        <div class="bg-image padded">
+        <div class="bg-image-stephan padded">
             <!-- image -->
         </div>
     </section>
