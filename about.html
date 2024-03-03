@@ -20,41 +20,51 @@
 </head>
 
 <!-- this is the body where all the page content goes -->
-<body>
+<body class="bg-dark">
 
-    <!----------------------- Header Banner ---------------------->
-    <section>
-        <div class="bg-image padded">
-            <!-- image -->
+    <!--------------------- Navigation  ----------------------->
+    <header class="padded-xs">
+        <div>
+          <a href="/index.html">
+            <h2> MomentsCatering </h2>
+          </a>
         </div>
-    </section>
-
-    <!----------------------- Headline Component ---------------------->
-    <section>
-        <div class="col-4 padded-sm text-center bg-dark">
-            <h1> Über mich </h1>
-            <p> Wer steht hinter Momentscatering </p>
+        <nav class="text-right">
+          <a href="/about.html"> Über mich </a>
+          <a href="/services.html"> Angebot </a>
+          <a href="/contact.html"> Kontakt </a>
+        </nav>
+      </header>
+    
+    <!--------------------- Header Banner --------------------->
+    <header class="grid bg-dark">
+        <div class="col-12 bg-header-about tall-70"></div>
+        <div class="col-9 ">
+            <div class="margin-sm bg-bright padded-sm text-left text-center">
+                <h1> Über mich </h1>
+                <p> Wer steht hinter Momentscatering </p>
+            </div>
         </div>
-    </section>
+    </header>
 
     <!--------------------- First Presentation --------------------->
-    <section class="grid bg-dark">
-        <div class="col-6 padded-sm text-left">
+    <section class="grid bg-dark tall-80 padded-md">
+        <div class="col-6-middle padded-sm text-left">
             <h1> Mein Name ist Stephan. </h1>
             <p> Hier könnte ein Text über dich und deine Erfahrungen stehen. 
                 Wir brauchen dafür einen guten Absatz, der sich über einige Zeilen zieht, damit wir genug Content haben, der für Google relevant wird und das Interesse der Nutzer weckt. </p>
         </div>
-        <div class="col-6 bg-image">
+        <div class="col-6 bg-image-stephan">
             <!-- image -->
         </div>
     </section>
 
     <!--------------------- Second Presentation --------------------->
-    <section class="grid bg-dark">
-        <div class="col-6 bg-image">
+    <section class="grid bg-dark tall-80 padded-md">
+        <div class="col-6 bg-image-about">
             <!-- image -->
         </div>
-        <div class="col-6 padded-sm text-left">
+        <div class="col-6-middle padded-sm text-left">
             <h1> Warum ich der richtige Partner an Ihrer Seite bin </h1>
             <p> Hier wären Stichpunkte oder ein Fliesstext gut, die aufzeigen, was dich von der Konkurrenz abhebt. 
                 Warum sollten Sie die Leute für dich interessieren bzw. </p>
@@ -81,44 +91,45 @@
             <button type="submit"> Absenden </button>
         </form>
     </section>
-
+    
     <!-------------------- Image Banner ---------------------->
     <section>
-        <div class="bg-image padded">
-            <!-- image -->
-        </div>
+        <div class="bg-image-chevy tall-50"></div>
     </section>
 
      <!-------------------- Footer ---------------------->
      <footer class="grid padded bg-dark">
         <!-- column 1 -->
         <div class="col-3">
-            <h2> LOGO </h2>
+            <h2> MomentsCatering </h2>
         </div>
 
         <!-- column 2 -->
         <div class="col-3 text-left">
             <nav>
-                <a href="#"> Home </a>
-                <a href="#"> Über mich </a>
-                <a href="#"> Angebot </a>
-                <a href="#"> Kontakt </a>
+                <a href="/index.html"> Home </a><br>
+                <a href="/about.html"> Über mich </a><br>
+                <a href="/services.html"> Angebot </a><br>
+                <a href="/contact.html"> Kontakt </a>
             </nav>
         </div>
 
         <!-- column 3 -->
         <div class="col-3 text-left">
-            <p class="mt-6"> MomentsCatering <br> info@momentscatering.ch <br> +41782358909 </p>
+            <p class="mt-6"> MomentsCatering <br> 
+                <a href="mailto:info@momentscatering.ch"> info@momentscatering.ch </a> <br> 
+                <a href="tel:+41782358909"> +41 78 235 89 09 </a> 
+            </p>
         </div>
 
         <!-- column 4 -->
         <div class="col-3 text-left">
             <nav>
-                <a href="#"> Datenschutzbestimmungen </a>
-                <a href="#"> Impressum </a>
-                <a href="#"> Facebook </a>
+                <a href="/datenschutzbestimmungen.html"> Datenschutzbestimmungen </a><br>
+                <a href="/impressum.html"> Impressum </a><br>
+                <a href="#"> Facebook </a><br>
                 <a href="#"> Instagram </a>
-            </nav>
+            </nav><br>
             <p> ©2024 MomentsCatering </p>
         </div>
      </footer>

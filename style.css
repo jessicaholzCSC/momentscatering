@@ -59,6 +59,12 @@ body {
   background-position: center;
 }
 
+.bg-header-about {
+  background-image: url('/images/momentscatering-cooking-with-fire.jpg');
+  background-size: cover;
+  background-position: 60% 45%;
+}
+
 /* Universal styles & utility classes */
 
 .padded       { padding: 5%; }
@@ -150,29 +156,15 @@ a {
   background-image: url('/images/momentscatering-filled-food.jpg');
 }
 
+.bg-image-chevy {
+  background-image: url('/images/momentscatering-chevy.jpg');
+}
+
 
 /* Button Styles */
-.button-dark {
-  color: #f2f2f2;
-  background-color: #1a1a1a;
-	text-decoration: none;       
-	letter-spacing: 1px;          
-	padding: 0.6rem 1.5rem;    
-	display: inline-block;    
-}
-
-.button-dark:hover {
-  color: #1a1a1a;
-  background-color: #f2f2f2;
-	text-decoration: none;     
-  border: 1px solid #1a1a1a;  
-	letter-spacing: 1px;          
-	padding: 0.6rem 1.5rem;    
-	display: inline-block;
-}
-
 .button-light {
   color: #1a1a1a;
+  font-weight: lighter;
   background-color: #f2f2f2;
 	text-decoration: none;      
 	letter-spacing: 1px;          
@@ -183,8 +175,31 @@ a {
 .button-light:hover {
   color: #f2f2f2;
   background-color: #1a1a1a;
+  font-weight: light;
 	text-decoration: none; 
   border: 1px solid #f2f2f2;     
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;
+}
+
+.button-dark {
+  color: #f2f2f2;
+  font-weight: lighter;
+  background-color: #1a1a1a;
+	text-decoration: none; 
+  border: 1px solid #f2f2f2;     
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;   
+}
+
+.button-dark:hover {
+  color: #1a1a1a;
+  background-color: #f2f2f2;
+  font-weight: light;
+	text-decoration: none;     
+  border: 1px solid #1a1a1a;  
 	letter-spacing: 1px;          
 	padding: 0.6rem 1.5rem;    
 	display: inline-block;
