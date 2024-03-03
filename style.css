@@ -51,7 +51,6 @@ body {
 .bg-pos-t-l { background-position: 35% 20%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
-
 /* Image Styles */
 
 .bg-header {
@@ -63,8 +62,12 @@ body {
 /* Universal styles & utility classes */
 
 .padded       { padding: 5%; }
+.padded-xs    { padding: 1rem; }
 .padded-sm    { padding: 2rem; }
-.padding-top  { padding: 5rem; }
+.padded-md    { padding: 3rem; }
+.padding-t    { padding-top: 5rem; }
+.padding-b    { padding-bottom: 2rem; }
+.padding-b-l  { padding-bottom: 4rem; }
 
 
 .bg-dark {
@@ -113,6 +116,7 @@ a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /* Background Images */
@@ -147,8 +151,44 @@ a {
 }
 
 
+/* Button Styles */
+.button-dark {
+  color: #f2f2f2;
+  background-color: #1a1a1a;
+	text-decoration: none;       
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;    
+}
 
+.button-dark:hover {
+  color: #1a1a1a;
+  background-color: #f2f2f2;
+	text-decoration: none;     
+  border: 1px solid #1a1a1a;  
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;
+}
 
+.button-light {
+  color: #1a1a1a;
+  background-color: #f2f2f2;
+	text-decoration: none;      
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;
+}
+
+.button-light:hover {
+  color: #f2f2f2;
+  background-color: #1a1a1a;
+	text-decoration: none; 
+  border: 1px solid #f2f2f2;     
+	letter-spacing: 1px;          
+	padding: 0.6rem 1.5rem;    
+	display: inline-block;
+}
 
 
 
