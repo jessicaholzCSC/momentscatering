@@ -20,54 +20,59 @@
 </head>
 
 <!-- this is the body where all the page content goes -->
-<body>
+<body class="bg-dark">
 
+    <!--------------------- Navigation  ----------------------->
+    <header class="padded-xs">
+        <div>
+          <a href="/index.html">
+            <h2> MomentsCatering </h2>
+          </a>
+        </div>
+        <nav class="text-right">
+          <a href="/about.html"> Über mich </a>
+          <a href="/services.html"> Angebot </a>
+          <a href="/contact.html"> Kontakt </a>
+        </nav>
+      </header>
+    
     <!--------------------- Header Banner --------------------->
     <header class="grid bg-dark">
-        <div class="col-6 bg-header tall-90">
-            <!-- image -->
-        </div>
         <div class="py-15p">
             <div class="col-4 padded-sm bg-bright margin text-left">
                 <h1> Das Catering für unvergessliche Momente </h1>
                 <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
             </div>
         </div>
+        <div class="col-6 bg-image-fine bg-pos-b-r tall-90"></div>
     </header>
 
     <!--------------------- About Component --------------------->
-    <section class="grid bg-bright">
-        <div class="col-4 bg-image">
-            <!-- image -->
-        </div>
-        <div class="col-4 padded-sm text-center">
+    <section class="grid tall-70">
+        <div class="col-4 bg-image-filled"></div>
+        <div class="col-4-middle padded-sm text-center">
             <h1> Das Catering für unvergessliche Momente </h1>
             <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
-
-            <!-- add CTA -->
-
         </div>
-        <div class="col-4 bg-image">
-            <!-- image -->
-        </div>
+        <div class="col-4 bg-image-pasta"></div>
     </section>
 
     <!------------------- Gallery Section --------------------->
-    <section class="grid bg-dark">
-        <div class="padded col-12-middle text-center">
-            <h1> Was wir sonst noch anbieten </h1>
-            <p> Sie planen ein Event und sind noch auf der Suche nach dem richtigen Partner an Ihrer Seite, der Ihnen kulinarisch einen einzigartigen Moment beschert? Dann melden Sie sich bei uns! </p>
+    <section class="bg-dark">
+        <div class="text-center padding-t">
+            <h2> Was wir sonst noch anbieten </h2>
+            <p class="padding-b"> Sie planen ein Event und sind noch auf der Suche nach dem richtigen Partner an Ihrer Seite, der Ihnen kulinarisch einen einzigartigen Moment beschert?<br> Dann melden Sie sich bei uns! </p>
         </div>
-        <div class="grid col-12-middle padded">
-            <div class="col-4 bg-image padded margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-3 bg-image padded margin-sm">
-                <!-- image -->
-            </div>
-            <div class="col-4 bg-image padded margin-sm">
-                <!-- image -->
-            </div>
+        <div class="gallery grid bg-dark padded-md">
+            <div class="col-4_xs-12">
+                <div class="bg-image-octopus square"></div>
+            </div> 
+            <div class="col-4_xs-12">
+                <div class="bg-image-filled square bg-pos-t-l"></div>
+            </div> 
+            <div class="col-4_xs-12">
+                <div class="bg-image-dessert1 square"></div>
+            </div> 
         </div>
         
     </section>
@@ -95,44 +100,46 @@
 
     <!-------------------- Image Banner ---------------------->
     <section>
-        <div class="bg-image padded">
-            <!-- image -->
-        </div>
+        <div class="bg-image-pasta tall-50"></div>
     </section>
 
      <!-------------------- Footer ---------------------->
      <footer class="grid padded bg-dark">
         <!-- column 1 -->
         <div class="col-3">
-            <h2> LOGO </h2>
+            <h2> MomentsCatering </h2>
         </div>
 
         <!-- column 2 -->
         <div class="col-3 text-left">
             <nav>
-                <a href="#"> Home </a>
-                <a href="#"> Über mich </a>
-                <a href="#"> Angebot </a>
-                <a href="#"> Kontakt </a>
+                <a href="/index.html"> Home </a><br>
+                <a href="/about.html"> Über mich </a><br>
+                <a href="/services.html"> Angebot </a><br>
+                <a href="/contact.html"> Kontakt </a>
             </nav>
         </div>
 
         <!-- column 3 -->
         <div class="col-3 text-left">
-            <p class="mt-6"> MomentsCatering <br> info@momentscatering.ch <br> +41782358909 </p>
+            <p class="mt-6"> MomentsCatering <br> 
+                <a href="mailto:info@momentscatering.ch"> info@momentscatering.ch </a> <br> 
+                <a href="tel:+41782358909"> +41 78 235 89 09 </a> 
+            </p>
         </div>
 
         <!-- column 4 -->
         <div class="col-3 text-left">
             <nav>
-                <a href="#"> Datenschutzbestimmungen </a>
-                <a href="#"> Impressum </a>
-                <a href="#"> Facebook </a>
+                <a href="/datenschutzbestimmungen.html"> Datenschutzbestimmungen </a><br>
+                <a href="/impressum.html"> Impressum </a><br>
+                <a href="#"> Facebook </a><br>
                 <a href="#"> Instagram </a>
-            </nav>
+            </nav><br>
             <p> ©2024 MomentsCatering </p>
         </div>
      </footer>
+
 
 
 
