@@ -66,9 +66,19 @@ body {
 }
 
 .bg-header-about {
-  background-image: url('/images/momentscatering-cooking-with-fire.jpg');
+  background-image: url('/images/momentscatering-cooking-with-fire.png');
   background-size: cover;
-  background-position: 60% 45%;
+  background-position: 60% 30%;
+}
+
+.bg-header-dessert {
+  background-image: url('/images/momentscatering-dessert.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
 }
 
 /* Universal styles & utility classes */
@@ -84,8 +94,10 @@ body {
                 padding-right: 15%;
                 padding-bottom: 5%;
                 padding-top: 5%; }
+.pt-text-gallery { padding-top: 35%; }
 
 .relative     { position: relative; }
+
 
 .bg-dark {
   background-color: #1a1a1a;
@@ -180,7 +192,7 @@ a:hover {
 /* Background Images */
 
 .bg-image-stephan {
-  background-image: url('/images/momentscatering-cooking-with-fire.jpg');
+  background-image: url('/images/momentscatering-cooking-with-fire.png');
 }
 
 .bg-image-about {
@@ -190,6 +202,7 @@ a:hover {
 .bg-image-octopus {
   background-image: url('/images/momentscatering-octopus.jpg');
   background-size: cover;
+  background-position: 50% 62%;
 }
 
 .bg-image-dessert1 {
@@ -335,12 +348,25 @@ form button {
     aspect-ratio: 1;
   }
 
+  .bg-header-dessert {
+    position: relative;
+    height: initial;
+    width: 100%;
+    z-index: 0;
+    aspect-ratio: 1;
+  }
+
   .mobile-bump-up {
     margin-top: -2rem;
   }
 
   .mobile-hide {
     display: none;
+  }
+
+  .padding-mob {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
