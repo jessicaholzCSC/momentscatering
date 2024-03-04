@@ -249,6 +249,15 @@ a:hover {
   z-index: 0;
 }
 
+.bg-about-banner {
+  background-image: url('/images/momentscatering-cooking-with-fire.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
+}
 
 /* Button Styles */
 .button-light {
