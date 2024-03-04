@@ -17,17 +17,19 @@ body {
 
 /* Gallery */
 
-.gallery,
 [class*=bg-image] {
     background-color: rgb(240,240,240);
-    background-image: url('/images/momentscatering-dessert-glas.jpg')
-    background-size: cover;
+    background-image: url('/images/momentscatering-dessert-glas.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .gallery [class*=col-] {
   padding: 0.5%;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 /* Aspect Ratio */
@@ -57,6 +59,10 @@ body {
   background-image: url('/images/momentscatering-chef-hands.png');
   background-size: cover;
   background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
 }
 
 .bg-header-about {
@@ -75,6 +81,7 @@ body {
 .padding-b    { padding-bottom: 2rem; }
 .padding-b-l  { padding-bottom: 4rem; }
 
+.relative     { position: relative; }
 
 .bg-dark {
   background-color: #1a1a1a;
@@ -124,6 +131,33 @@ a {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/* Navigation Style */
+.navigation {
+  color: #f2f2f2;
+	text-decoration: none;
+  font-weight: lighter;
+	display: inline-block;
+	letter-spacing: 0.05em;
+	padding: 0.5rem 0.8rem;
+	margin: 0.5rem;
+}
+
+.navigation:hover {
+  color: #f2f2f2;
+	text-decoration: underline;
+  font-weight: lighter;
+	display: inline-block;
+	letter-spacing: 0.05em;
+	padding: 0.5rem 0.8rem;
+	margin: 0.5rem;
+}
+
+/* Logo styles */
+.header-logo {
+  max-width: 200px;
+}
+
 
 /* Background Images */
 
@@ -207,56 +241,70 @@ a {
   background-color: #f2f2f2;
   font-weight: light;
 	text-decoration: none;     
-  border: 1px solid #1a1a1a;  
 	letter-spacing: 1px;          
 	padding: 0.6rem 1.5rem;    
 	display: inline-block;
 }
 
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
 
+form input:focus,
+form textarea:focus {
+  border-color: #410303;
+}
 
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: inherit;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+}
 
+form button {
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0;
+}
 
+/* Custom Grids */
+.three-column-gallery {
+  display: grid;
+  grid-template-columns: 2fr 400px 3fr;
+}
 
-
-
-
-/* ----------- Import Tailwind -----*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-/* ----------- Default Styles to apply to the whole project  --------- */
-
-@layer base {
-
-    body,html {
-        @apply text-bright bg-dark w-screen overflow-x-hidden;
-    }
-    h1, h2, h3, h4  {
-        @apply font-serif mb-[0.5em];
-    }
-
-    h1 {
-        @apply text-7xl lg:text-8xl leading-tight;
-    }
-    h2 {
-        @apply text-3xl lg:text-5xl leading-tight;
-    }
-    h3 {
-        @apply text-2xl lg:text-4xl leading-tight;
-    }
-
-    h3 {
-        @apply text-lg leading-tight;
-    }
-    h4 {
-        @apply text-lg leading-tight;
-    }
-
-    p {
-        @apply mb-[0.5em] leading-normal font-sans;
-    }
-
+/* Media Queries */
+@media (
+  max-width: 768px
+)
+{
+  .mobile-text-center {
+    text-align: center;
   }
+
+  .bg-header {
+    position: relative;
+    height: initial;
+    width: 100%;
+    z-index: 0;
+    aspect-ratio: 1;
+  }
+
+  .mobile-bump-up {
+    margin-top: -2rem;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
+

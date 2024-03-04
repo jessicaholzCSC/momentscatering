@@ -30,9 +30,9 @@
           </a>
         </div>
         <nav class="text-right">
-          <a href="/about.html"> Über mich </a>
-          <a href="/services.html"> Angebot </a>
-          <a href="/contact.html"> Kontakt </a>
+          <a class="navigation" href="/about.html"> Über mich </a>
+          <a class="navigation" href="/services.html"> Angebot </a>
+          <a class="navigation" href="/contact.html"> Kontakt </a>
         </nav>
       </header>
 
@@ -48,28 +48,28 @@
     </header>
 
     <!------------------- Contact Section --------------------->
-    <section>
-        <div class="padded-sm text-center bg-dark">
+    <section class="padding-t">
+        <div class="text-center bg-dark">
             <h1> Wir freuen uns auf Ihre Anfrage </h1>
         </div>
-        <form class="padded-sm bg-dark">
+        <form class="padded bg-dark">
             <label for="_vorname"> Vorname </label>
-            <input name="_vorname" id="_vorname" />
-            <label for="_name"> Name </label>
-            <input name="_name" id="_name" />
+            <input type="text" name="_vorname" id="_vorname"/>
+            <label for="_nachname"> Name </label>
+            <input type="text" name="_nachname" id="_nachname"/>
             <label for="_replyto"> Email </label>
-            <input type="email" name="_replyto" id="_replyto" />
-            <label for="_nummer"> Telefonnummer </label>
-            <input name="nummer" id="_nummer" />
-            <label for="message"> Message </label>
-            <textarea name="message" id="message" ></textarea>
-            <button type="submit"> Absenden </button>
+            <input type="email" name="_replyto" id="_replyto"/>
+            <label for="_number"> Telefonnummer </label>
+            <input type="tel" id="_number">
+            <label for="_message"> Message </label>
+            <textarea name="_message" id="_message" ></textarea>
+            <button class="button-light" type="submit"> Absenden </button>
         </form>
     </section>
 
     <!------------------- Gallery Section --------------------->
     <section class="bg-dark">
-        <div class="text-center padding-t">
+        <div class="text-center">
             <h2> MomentsCatering </h2>
             <p> Auch für Sie erreichbar unter: <br>
                 +41 71 234 56 78 <br>

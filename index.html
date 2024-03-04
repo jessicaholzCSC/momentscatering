@@ -26,24 +26,25 @@
 <body class="bg-dark">
 
     <!--------------------- Navigation  ----------------------->
-    <header class="padded-xs">
-        <div>
-          <a href="/index.html">
-            <h2> MomentsCatering </h2>
+    <header class="padded-xs grid-middle-spaceBetween">
+        <div class="col_sm-12 mobile-text-center">
+          <a href="/">
+            <img class="header-logo" src="/images/momentscatering-logo-white.png" alt="MomentsCatering Logo">
           </a>
         </div>
-        <nav class="text-right">
-          <a href="/about.html"> Über mich </a>
-          <a href="/services.html"> Angebot </a>
-          <a href="/contact.html"> Kontakt </a>
+        <nav class="col_sm-12 text-right mobile-text-center">
+          <a class="navigation" href="/about.html"> Über mich </a>
+          <a class="navigation" href="/services.html"> Angebot </a>
+          <a class="navigation" href="/contact.html"> Kontakt </a>
         </nav>
       </header>
 
     <!--------------------- Header Banner --------------------->
-    <header class="grid bg-dark">
-        <div class="col-6 bg-header tall-70"></div>
-        <div class="col-5-middle">
-            <div class="margin-sm bg-bright padded-sm text-left">
+    <header class="grid bg-dark tall-70 relative">
+        <div class="col-5"></div>
+        <div class="bg-header"></div>
+        <div class="col-6-middle col_sm-12">
+            <div class="margin-sm bg-bright padded-sm text-left relative mobile-bump-up">
                 <h1> Das Catering für <br> unvergessliche Momente </h1>
                 <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
             </div>
@@ -51,15 +52,15 @@
     </header>
 
     <!--------------------- About Component --------------------->
-    <section class="grid bg-bright tall-70">
-        <div class="col-4 bg-image-stephan">
+    <section class="three-column-gallery bg-dark tall-70 padding-t">
+        <div class="bg-image-stephan">
         </div>
-        <div class="col-4-middle padded-sm text-left">
+        <div class="padded-sm text-left">
             <h2> Das Catering für unvergessliche Momente </h2>
             <p class="padding-b"> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
-            <a class="button-dark" href="/about.html">Mehr erfahren</a>
+            <a class="button-light" href="/about.html">Mehr erfahren</a>
         </div>
-        <div class="col-4 bg-image-about">
+        <div class="bg-image-about">
         </div>
     </section>
 
@@ -75,18 +76,18 @@
                 <div class="bg-image-octopus square"></div>
             </div> 
             <div class="col-4_xs-12">
-                <div class="bg-image-filled square bg-pos-t-l"></div>
+                <div class="bg-image-filled bg-cover square bg-pos-t-l"></div>
             </div> 
             <div class="col-4_xs-12">
-                <div class="bg-image-dessert1 square"></div>
+                <div class="bg-image-dessert1 bg-cover square"></div>
             </div> 
-            <div class="col-4_xs-12">
-                <div class="bg-image-dessert2 square"></div>
+            <div class="col-4_xs-12 mobile-hide">
+                <div class="bg-image-dessert2 bg-cover square"></div>
             </div> 
-            <div class="col-4_xs-12">
-                <div class="bg-image-pralines square"></div>
+            <div class="col-4_xs-12 mobile-hide">
+                <div class="bg-image-pralines bg-cover square"></div>
             </div> 
-            <div class="col-4_xs-12">
+            <div class="col-4_xs-12 mobile-hide">
                 <div class="bg-image-stephan square"></div>
             </div> 
         </div>
@@ -110,12 +111,12 @@
      <!-------------------- Footer ---------------------->
      <footer class="grid padded bg-dark">
         <!-- column 1 -->
-        <div class="col-3">
+        <div class="col-3_lg-12">
             <h2> MomentsCatering </h2>
         </div>
 
         <!-- column 2 -->
-        <div class="col-3 text-left">
+        <div class="col-3_lg-6_sm-12 text-left">
             <nav>
                 <a href="/index.html"> Home </a><br>
                 <a href="/about.html"> Über mich </a><br>
@@ -125,7 +126,7 @@
         </div>
 
         <!-- column 3 -->
-        <div class="col-3 text-left">
+        <div class="col-3_lg-6_sm-12 text-left">
             <p class="mt-6"> MomentsCatering <br> 
                 <a href="mailto:info@momentscatering.ch"> info@momentscatering.ch </a> <br> 
                 <a href="tel:+41782358909"> +41 78 235 89 09 </a> 
@@ -133,7 +134,7 @@
         </div>
 
         <!-- column 4 -->
-        <div class="col-3 text-left">
+        <div class="col-3_lg-12 text-left">
             <nav>
                 <a href="/datenschutzbestimmungen.html"> Datenschutzbestimmungen </a><br>
                 <a href="/impressum.html"> Impressum </a><br>

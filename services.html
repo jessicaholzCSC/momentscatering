@@ -30,9 +30,9 @@
           </a>
         </div>
         <nav class="text-right">
-          <a href="/about.html"> Über mich </a>
-          <a href="/services.html"> Angebot </a>
-          <a href="/contact.html"> Kontakt </a>
+          <a class="navigation" href="/about.html"> Über mich </a>
+          <a class="navigation" href="/services.html"> Angebot </a>
+          <a class="navigation" href="/contact.html"> Kontakt </a>
         </nav>
       </header>
     
@@ -44,11 +44,11 @@
                 <p> Für jedes Event , für jeden Anlass kreieren wir ein kulinarisches Erlebnis </p>
             </div>
         </div>
-        <div class="col-6 bg-image-fine bg-pos-b-r tall-90"></div>
+        <div class="col-6 bg-image-fine bg-pos-b-r tall-70"></div>
     </header>
 
     <!--------------------- About Component --------------------->
-    <section class="grid tall-70">
+    <section class="grid tall-70 padding-t ">
         <div class="col-4 bg-image-filled"></div>
         <div class="col-4-middle padded-sm text-center">
             <h1> Das Catering für unvergessliche Momente </h1>
@@ -83,18 +83,18 @@
             <h1> Nehmen Sie noch heute mit uns Kontakt auf </h1>
             <p> Sie planen ein Event und sind noch auf der Suche nach dem richtigen Partner an Ihrer Seite, der Ihnen kulinarisch einen einzigartigen Moment beschert? Dann melden Sie sich bei uns! </p>
         </div>
-        <form class="padded-sm bg-dark">
+        <form class="padded bg-dark">
             <label for="_vorname"> Vorname </label>
-            <input name="_vorname" id="_vorname" />
-            <label for="_name"> Name </label>
-            <input name="_name" id="_name" />
+            <input type="text" name="_vorname" id="_vorname"/>
+            <label for="_nachname"> Name </label>
+            <input type="text" name="_nachname" id="_nachname"/>
             <label for="_replyto"> Email </label>
-            <input type="email" name="_replyto" id="_replyto" />
-            <label for="_nummer"> Telefonnummer </label>
-            <input name="nummer" id="_nummer" />
-            <label for="message"> Message </label>
-            <textarea name="message" id="message" ></textarea>
-            <button type="submit"> Absenden </button>
+            <input type="email" name="_replyto" id="_replyto"/>
+            <label for="_number"> Telefonnummer </label>
+            <input type="tel" id="_number">
+            <label for="_message"> Message </label>
+            <textarea name="_message" id="_message" ></textarea>
+            <button class="button-light" type="submit"> Absenden </button>
         </form>
     </section>
 
