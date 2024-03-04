@@ -90,11 +90,17 @@ body {
 .padding-t    { padding-top: 5rem; }
 .padding-b    { padding-bottom: 2rem; }
 .padding-b-l  { padding-bottom: 4rem; }
+.padding-frame {  padding-left: 5rem;
+                  padding-right: 5rem;
+                  padding-bottom: 1rem;
+                  padding-top: 1rem;
+                }
 .padding-form { padding-left: 15%;
                 padding-right: 15%;
                 padding-bottom: 5%;
                 padding-top: 5%; }
-.pt-text-gallery { padding-top: 35%; }
+.pt-text-gallery { padding-top: 10%; }
+.pt-text-gallery2 { padding-top: 20%; }
 
 .relative     { position: relative; }
 
@@ -135,7 +141,9 @@ h1, h2, h3, h4 {
   margin-bottom: 1.5rem;
 }
 
-p { font-size: 1.5rem; }
+p { font-size: 1.5rem;
+    line-height: 1.4; 
+  }
 
 span {  font-weight: bold;
         font-size: 1.5rem;
@@ -197,6 +205,8 @@ a:hover {
 
 .bg-image-about {
   background-image: url('/images/momentscatering-stephan.jpg');
+  background-size: cover;
+  background-position: 50% 43%;
 }
 
 .bg-image-octopus {
@@ -321,6 +331,11 @@ form button {
 .three-column-gallery {
   display: grid;
   grid-template-columns: 2fr 400px 3fr;
+}
+
+.three-column-gallery2 {
+  display: grid;
+  grid-template-columns: 3fr 500px 3fr;
 }
 
 /* Media Queries */
