@@ -80,6 +80,10 @@ body {
 .padding-t    { padding-top: 5rem; }
 .padding-b    { padding-bottom: 2rem; }
 .padding-b-l  { padding-bottom: 4rem; }
+.padding-form { padding-left: 15%;
+                padding-right: 15%;
+                padding-bottom: 5%;
+                padding-top: 5%; }
 
 .relative     { position: relative; }
 
@@ -96,6 +100,7 @@ body {
 .margin       { margin: 5%; }
 .margin-sm    { margin: 1rem; }
 .margin-top   { margin-top: 12rem; }
+.margin-bump-up { margin-top: -2rem; }
 
 .text-left   { text-align: left; }
 .text-center { text-align: center; }
@@ -213,6 +218,12 @@ a:hover {
 
 .bg-image-fine {
   background-image: url('/images/momentscatering-fine-food.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
 }
 
 
@@ -275,6 +286,10 @@ form textarea:focus {
   border-color: #410303;
 }
 
+textarea {
+  min-height: 8rem;
+}
+
 form label {
   margin-top: 1rem;
   display: block;
@@ -305,6 +320,14 @@ form button {
   }
 
   .bg-header {
+    position: relative;
+    height: initial;
+    width: 100%;
+    z-index: 0;
+    aspect-ratio: 1;
+  }
+
+  .bg-image-fine {
     position: relative;
     height: initial;
     width: 100%;
