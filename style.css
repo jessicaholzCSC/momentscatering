@@ -128,8 +128,13 @@ span {  font-weight: bold;
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: bold;
+  font-weight: light;
   font-size: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Navigation Style */
@@ -153,9 +158,17 @@ a {
 	margin: 0.5rem;
 }
 
+.footer-nav {
+  line-height:1.8;
+}
+
 /* Logo styles */
 .header-logo {
-  max-width: 200px;
+  max-width: 250px;
+}
+
+.footer-logo {
+  max-width: 400px;
 }
 
 
