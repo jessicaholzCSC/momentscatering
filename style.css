@@ -193,7 +193,8 @@ a:hover {
 }
 
 .footer-logo {
-  max-width: 400px;
+  width: 400px;
+  max-width: 100%;
 }
 
 
@@ -247,6 +248,10 @@ a:hover {
   height: 90%;
   width: 70%;
   z-index: 0;
+}
+
+.bg-image-right {
+  right: 0;
 }
 
 .bg-about-banner {
@@ -391,6 +396,10 @@ form button {
   .padding-mob {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .mobile-square {
+    min-height: 40vh;
   }
 }
 
