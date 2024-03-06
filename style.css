@@ -56,9 +56,9 @@ body {
 /* Image Styles */
 
 .bg-header {
-  background-image: url('/images/momentscatering-chef-hands.png');
+  background-image: url('/images/momentscatering-matcha.jpeg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 10%;
   position: absolute;
   height: 90%;
   width: 70%;
@@ -198,22 +198,28 @@ a:hover {
 }
 
 
-/* Background Images */
+/* Gallery Images */
 
 .bg-image-stephan {
   background-image: url('/images/momentscatering-cooking-with-fire.png');
 }
 
 .bg-image-about {
-  background-image: url('/images/momentscatering-stephan.jpg');
+  background-image: url('/images/momentscatering-work-mode.png');
   background-size: cover;
   background-position: 50% 43%;
 }
 
-.bg-image-octopus {
-  background-image: url('/images/momentscatering-octopus.jpg');
+.bg-image-sandwich {
+  background-image: url('/images/momentscatering-fingerfood-service.jpg');
   background-size: cover;
-  background-position: 50% 62%;
+  background-position: 50% 43%;
+}
+
+.bg-image-truffes {
+  background-image: url('/images/momentscatering-truffe-mushroom.jpg');
+  background-size: cover;
+  background-position: 50% 43%;
 }
 
 .bg-image-dessert1 {
@@ -224,16 +230,28 @@ a:hover {
   background-image: url('/images/momentscatering-dessert.png');
 }
 
-.bg-image-pralines {
-  background-image: url('/images/momentscatering-pralines.jpg');
+.bg-image-octopus {
+  background-image: url('/images/momentscatering-octopus.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.bg-image-filled {
-  background-image: url('/images/momentscatering-filled-food.jpg');
+.bg-image-barbecue {
+  background-image: url('/images/momentscatering-barbecue.jpeg');
+  background-size: cover;
+  background-position: 50% 65%;
 }
 
-.bg-image-chevy {
-  background-image: url('/images/momentscatering-chevy.jpg');
+.bg-image-salad {
+  background-image: url('/images/momentscatering-springsalad.jpg');
+  background-size: cover;
+  background-position: 50% 65%;
+}
+
+.bg-image-schnitte {
+  background-image: url('/images/momentscatering-schnitte.jpeg');
+  background-size: cover;
+  background-position: 50% 65%;
 }
 
 .bg-image-pasta {
