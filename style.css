@@ -66,7 +66,7 @@ body {
 }
 
 .bg-header-about {
-  background-image: url('/images/momentscatering-cooking-with-fire.png');
+  background-image: url('/images/momentscatering-banner-portrait-outdoor.png');
   background-size: cover;
   background-position: 60% 30%;
 }
@@ -204,6 +204,20 @@ a:hover {
   background-image: url('/images/momentscatering-cooking-with-fire.png');
 }
 
+.bg-image-catering {
+  background-image: url('/images/momentscatering-catering.png');
+}
+
+.bg-image-work {
+  background-image: url('/images/momentscatering-work-mode.png');
+  background-size: cover;
+  background-position: 50% 13%;
+}
+
+.bg-image-colorful {
+  background-image: url('/images/momentscatering-kochen-mit-farbe.jpeg');
+}
+
 .bg-image-about {
   background-image: url('/images/momentscatering-work-mode.png');
   background-size: cover;
@@ -236,10 +250,46 @@ a:hover {
   background-position: 50% 50%;
 }
 
+.bg-image-soup {
+  background-image: url('/images/momentscatering-soup.jpeg');
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
+.bg-image-amuse {
+  background-image: url('/images/momentscatering-amuse.jpeg');
+  background-size: cover;
+  background-position: 50% 55%;
+}
+
 .bg-image-barbecue {
   background-image: url('/images/momentscatering-barbecue.jpeg');
   background-size: cover;
   background-position: 50% 65%;
+}
+
+.bg-image-platesdish {
+  background-image: url('/images/momentscatering-plate-service.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bg-image-carpaccio-gallery {
+  background-image: url('/images/momentscatering-carpaccio.jpg');
+  background-size: cover;
+  background-position: 20% 50%;
+}
+
+.bg-image-plateservice {
+  background-image: url('/images/momentscatering-fine-food.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bg-image-tomato {
+  background-image: url('/images/momentscatering-tomato-salad.jpg');
+  background-size: cover;
+  background-position: 50% 15%;
 }
 
 .bg-image-salad {
@@ -256,6 +306,16 @@ a:hover {
 
 .bg-image-pasta {
   background-image: url('/images/momentscatering-pasta.jpg');
+}
+
+.bg-image-carpaccio {
+  background-image: url('/images/momentscatering-carpaccio.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
 }
 
 .bg-image-fine {
