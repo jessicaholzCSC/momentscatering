@@ -193,8 +193,9 @@ a:hover {
 }
 
 .footer-logo {
-  width: 400px;
+  width: 550px;
   max-width: 100%;
+  background-position: left;
 }
 
 
@@ -221,7 +222,7 @@ a:hover {
 .bg-image-about {
   background-image: url('/images/momentscatering-work-mode.png');
   background-size: cover;
-  background-position: 50% 43%;
+  background-position: 50% 20%;
 }
 
 .bg-image-sandwich {
