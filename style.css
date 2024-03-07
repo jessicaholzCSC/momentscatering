@@ -440,6 +440,10 @@ form button {
     text-align: center;
   }
 
+  .mobile-text-right {
+    text-align: right;
+  }
+
   .bg-header {
     position: relative;
     height: initial;
