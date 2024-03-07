@@ -72,7 +72,11 @@
             <h1> Nehmen Sie noch heute mit uns Kontakt auf </h1>
             <p> Sie planen ein Event und sind noch auf der Suche nach dem richtigen Partner an Ihrer Seite, der Ihnen kulinarisch einen einzigartigen Moment beschert? <br> Dann melden Sie sich bei uns! </p>
         </div>
-        <form class="padding-form bg-dark" name="contact" netlify>
+        <form class="padding-form bg-dark" 
+            name="contact"
+            action="/confirmation.html"
+            method="POST"
+            data-netlify="true">
             <label for="_vorname"> Vorname </label>
             <input type="text" name="_vorname" id="_vorname"/>
             <label for="_nachname"> Name </label>
