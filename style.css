@@ -330,6 +330,16 @@ a:hover {
   z-index: 0;
 }
 
+.bg-banner-salad {
+  background-image: url('/images/momentscatering-springsalad.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  z-index: 0;
+}
+
 .bg-image-right {
   right: 0;
 }
