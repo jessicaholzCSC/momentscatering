@@ -84,7 +84,11 @@
             <h3> Planen Sie gemeinsam mit uns </h3>
             <p> Sie möchten mehr Gast als Gastgeber auf Ihrer eigenen Feier sein? <br> Fokussiert auf einen reibungslosen Ablauf im Hintergrund und einen organisierten Service, schaffen wir Raum und Zeit für Sie. <br> Setzen Sie sich direkt mit uns in Verbindung. </p>
         </div>
-        <form class="padding-form bg-dark" name="contact" netlify action="/confirmation.html">
+        <form class="padding-form bg-dark" 
+            name="contact"
+            action="/confirmation.html"
+            method="POST"
+            data-netlify="true">
             <label for="_vorname"> Vorname </label>
             <input type="text" name="_vorname" id="_vorname"/>
             <label for="_nachname"> Name </label>
