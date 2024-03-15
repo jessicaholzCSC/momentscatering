@@ -164,6 +164,10 @@ a:hover {
   font-weight: bold;
 }
 
+.form-confirmation {
+  font-family: 'Cormorant', serif;
+}
+
 /* Navigation Style */
 .navigation {
   color: #f2f2f2;
@@ -405,17 +409,19 @@ form textarea {
   padding: 0.5rem;
   border: 2px solid #f2f2f2;
   outline: none;
-  font-family: inherit;
+  font-family: 'Cormorant', serif;
   font-size: 0.9rem;
 }
 
 form input:focus,
 form textarea:focus {
   border-color: #410303;
+  font-family: 'Cormorant', serif;
 }
 
 textarea {
   min-height: 8rem;
+  font-family: 'Cormorant', serif;
 }
 
 form label {
@@ -424,12 +430,14 @@ form label {
   color: inherit;
   /* font-weight: bold; */
   font-size: 1.5rem;
+  font-family: 'Cormorant', serif;
 }
 
 form button {
   border: none;
   padding: 0.5rem 2rem;
   margin: 0.5rem 0;
+  font-family: 'Cormorant', serif;
 }
 
 /* Custom Grids */
